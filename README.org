@@ -1,0 +1,17 @@
+#+TITLE: README
+#+AUTHOR: Davor Babić
+
+* Introduction
+Ok, so this repository contains a podcast player that was written as
+an assignment. It needs server code to run, that is not supplied in
+this repo.
+
+Since the project is so small, I decided not to divide the files into
+a tree structure with directories. I also hardcoded the URL to the
+server, whereas if I had been a little bit more serious with this, I
+would have put the URL into an environmental variable. I also went
+ahead and skipped all error handling code for this project, not to
+mention localization.
+
+Other than that, the project is fairly straight forward and launches
+with `yarn start`.
